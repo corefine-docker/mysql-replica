@@ -1,7 +1,7 @@
 # mysql-replica
 
 ```
-docker run --name mysql-replica -p 3307:3307 \
+docker run --name mysql-replica -p 3307:3306 \
   -e SYNC_HOST=192.168.203.203 \
   -e MYSQL_ROOT_PASSWORD=root \
   -e SYNC_PASSWORD=sync \
