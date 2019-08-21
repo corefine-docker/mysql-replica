@@ -9,3 +9,4 @@ docker run --name mysql-replica -p 3307:3306 \
   -v /data/docker_volume/mysql_replica/conf:/etc/mysql/conf.d \
   -d fine/mysql-replica:5.7
 ```
+
