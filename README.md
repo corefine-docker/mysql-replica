@@ -1,9 +1,5 @@
 # mysql-replica
 
-
-此功能暂未实现
-
-
 ```
 docker run --name mysql-replica -p 3307:3306 \
   -e SYNC_HOST=192.168.203.203 \
